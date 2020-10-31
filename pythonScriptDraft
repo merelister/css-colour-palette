@@ -1,0 +1,9 @@
+searching string for pattern:
+
+label: #xxxxxx;
+
+"{label}: #{hexadecimal};"
+find all labels and hexadecimals
+
+print()
+'label':'hexadecimal'
