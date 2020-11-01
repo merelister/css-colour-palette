@@ -24,3 +24,16 @@ The frontend is set to run from localhost on port 8080 for development.
 
 <code>npm start</code> will run in development, to deploy
 <code>npm run-script build</code> to retrieve a <code>/build</code> folder with an optimized build to be hosted.
+
+**Firebase backend**
+*important bits*:
+
+- .functions/
+	- where all of the firebase functions information is stored
+
+- ./functions/index.js
+    - where all of the functions to be called from the api are.
+
+NOTE: firebase-tools must be installed to emulate the firebase code <code>npm install firebase-tools</code> 
+to test in development, run <code>fire-base emulators:start</code> and go to the url:port it points to.
+
