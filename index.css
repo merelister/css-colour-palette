@@ -14,7 +14,7 @@ body{
 
 .css_input{
     background-color: #393f4d;
-    height: 35rem;
+    height: 39rem;
     width: 30rem;
     border-radius: 2rem;
     border-width: 0;
@@ -40,7 +40,7 @@ body{
 }
 
 .editor {
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
 }
 
 .group{
@@ -56,7 +56,7 @@ body{
     padding-right: 1rem; */
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
     width: 10rem;
     border-radius: 1rem;
