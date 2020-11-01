@@ -1,12 +1,12 @@
 import app from 'firebase/app';
 
-const fireBaseConfig = {
-    // Firebase config goes here
-};
+const firebaseConfig = {
+    //Fire base config goes here
+  };
 
 class Firebase {
     constructor() {
-        app.initializeApp(fireBaseConfig);
+        app.initializeApp(firebaseConfig);
     }
 }
 
