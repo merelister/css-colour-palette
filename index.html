@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <!-- Before inputting the code -->
-    <form action="POST">
-        <input type="text" name="css_input" id="css_input">
-        <input type="submit" name="submit" id="submit">
+    <form action="POST" class="css_form">
+        <textarea type="text" name="css_input" class="css_input form_item" rows="4" cols="50" onclick="this.select()">Paste your CSS code here</textarea>
+        <input type="submit" name="submit" class="submit form_item">
     </form>
 
     <!-- After inputting the code -->
@@ -22,27 +23,35 @@
     </div>
 
     <!-- On the right side -->
-    <div class="right">
+    <div class="editor">
         <!-- Each div is a class in the css file  -->
-        <h3>main</h3>
-        <div class="main_color">
-            <h5>color</h5>
-            <h5>#000000</h5>
-        </div>
-        <div class="main_color">
-            <h5>colour</h5>
-            <h5>#FFFFFF</h5>
+
+        <div class="group">
+            <h3>main</h3>
+            <div class="box">
+                <h5 class="attribute">Color</h5>
+                <h5 class="value">#000000</h5>
+            </div>
+            <div class="box">
+                <h5 class="attribute">Background Color</h5>
+                <h5 class="value">#FFFFFF</h5>
+            </div>
+            <div class="box">
+                <h5 class="attribute">Border Color</h5>
+                <h5 class="value">#FFFFFF</h5>
+            </div>
         </div>
 
-
-        <h3>.some_div_class_thing</h3>
-        <div class="some_div_class_thing_color">
-            <h5>color</h5>
-            <h5>#00FF00</h5>
-        </div>
-        <div class="some_div_class_thing_color">
-            <h5>colour</h5>
-            <h5>#FF00FF</h5>
+        <div class="group">
+            <h3>.some_div_class_thing</h3>
+            <div class="box">
+                <h5 class="attribute">Color</h5>
+                <h5 class="value">#00FF00</h5>
+            </div>
+            <div class="box">
+                <h5 class="attribute">Background Color</h5>
+                <h5 class="value">#FF00FF</h5>
+            </div>         
         </div>
     </div>
 </body>

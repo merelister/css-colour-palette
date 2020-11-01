@@ -1,0 +1,90 @@
+body{
+    background-color: #1d1e22;
+    font-family: 'Oswald', sans-serif;
+    color: #d4d4dc;
+    font-weight: normal;
+    font-style: normal;
+    margin: 1.5em;
+}
+
+.css_form{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.css_input{
+    background-color: #393f4d;
+    height: 35rem;
+    width: 30rem;
+    border-radius: 2rem;
+    border-width: 0;
+    padding: 2.5rem;
+    color: #d4d4dc;
+    resize: none;
+    font-size: 18px;
+}
+
+.form_item{
+    display: block;
+    margin: auto;
+}
+
+.submit{
+    background-color: #A74807;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 35rem;
+    margin-top: 1rem;
+    border-width: 0;
+    font-size: 20px;
+}
+
+.editor {
+    margin-top: 10rem;
+}
+
+.group{
+    display: inline-block;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.box {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: inline-block;
+
+    /* Variable */
+    background-color: gray;
+}
+
+.attribute {
+    /* background-color: #1d1e22; */
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    border-radius: 1rem;
+    width: 9.2rem;
+    margin: auto;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
+.value {
+    /* background-color: #1d1e22; */
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 0.2rem;
+    border-radius: 1rem;
+    width: 5rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
